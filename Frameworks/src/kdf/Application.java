@@ -16,6 +16,7 @@ public class Application {
 		
 		for(int i = 1;i<data.length;i++) {
 			switch(data[i][3]) {
+			//Making code changes after R1.1
 			case "openBrowser":
 				Methods.openBrowser();
 				break;
